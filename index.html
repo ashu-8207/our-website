@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happiest 1st Anniversary My Angel💗✨</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #ff6f61;
+      padding: 20px;
+      color: white;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    h2 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin: 40px 0;
+    }
+    .section img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .gallery img {
+      width: 210px;
+      height: 170px;
+      object-fit: fit in the box;
+      border-radius: 10px;
+    }
+    .message {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    a {
+      color: #ff6f61;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happiest 1st Anniversary My Angel💗✨</h1>
+    <h2>Celebrating 365 Days of Love</h2>
+  </header>
+
+  <div class="container">
+    <!-- Home Section -->
+    <section class="section">
+      <img src="IMG_20240309_002030_113.jpg" alt="Our Photo" style="width: 300px;">
+      <p>Welcome to our special anniversary website!</p>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="section">
+      <h2>Our Story</h2>
+      <p class="message">
+        A crazy maniac meets a sweet innocent girl who changes her life teaches him the values of life be the most important part of my life being my best frnd my closest ally my love my support my everything u've jst made it to my heart u've the place which no one can ever have in my heart the place i never wanna share with someone else even when i think about us parting our ways it jst takes my soul away from me can't explain how special u are for me the only person i can trust with my heart i wish we meet soon i really miss u sweetheart💗💗💗💗 
+      </p>
+      <img src="WhatsApp Image 2025-03-16 at 03.12.30_be10dbf6.jpg" alt="Our Story" style="width: 400px;">
+    </section>
+
+    <!-- Anniversary Wish Section -->
+    <section class="section">
+      <h2>My Anniversary Wish</h2>
+      <p class="message">
+        To my love,<br>
+        Hey my love! 💖
+
+Happy 1st Anniversary, my love! 💖
+
+I can't believe it's already been a whole year since we started this beautiful journey together. Every moment with you feels like a dream come true, and I'm so grateful to have you by my side. You light up my world with your smile, fill my heart with your love, and make every day more beautiful just by being in it. 🌹✨
+
+Thank you for being my rock, my confidant, and my everything. I cherish every laugh, every hug, and every little moment we've shared. Here's to many more years of love, laughter, and endless happiness together! 🥰💑
+I love you more than words could ever express! 💕💖💞
+Yours forever,<br>
+        Arshad
+      </p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section">
+      <h2>Our Memories</h2>
+      <div class="gallery">
+        <img src="tapasyyyaaaaa-20240227-0001.jpg" alt="Memory 1">
+        <img src="IMG_20240324_205945_276.jpg" alt="Memory 2">
+        <img src="WhatsApp Image 2025-03-16 at 02.46.04_f56b2188.jpg" alt="Memory 3">
+        <img src="WhatsApp Image 2025-03-16 at 02.47.20_e3a05bca.jpg" alt="Memory 4">
+      </div>
+    </section>
+
+    <!-- Countdown Timer (Optional) -->
+    <section class="section">
+      <h2>Countdown to Our Next Adventure</h2>
+      <div id="countdown"></div>
+      <script>
+        // Set the date we're counting down to (replace with your next anniversary date)
+        const countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+
+        // Update the countdown every 1 second
+        const countdownFunction = setInterval(() => {
+          const now = new Date().getTime();
+          const distance = countDownDate - now;
+
+          // Time calculations
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Display the result
+          document.getElementById("countdown").innerHTML =
+            `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+          // If the countdown is over, display a message
+          if (distance < 0) {
+            clearInterval(countdownFunction);
+            document.getElementById("countdown").innerHTML = "Happy Anniversary!";
+          }
+        }, 1000);
+      </script>
+    </section>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by Arsh</p>
+  </footer>
+
+ <audio autoplay loop>
+  <source src="C:\Users\arsha\Downloads\ed_sheeran_perfect.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</body>
+</html>
